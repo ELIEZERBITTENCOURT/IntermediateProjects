@@ -1,0 +1,92 @@
+#image-viewer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+#gallery-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    margin: 0 8px;
+}
+
+button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.zoom-in-button,
+.zoom-out-button,
+.rotate-left-button,
+.rotate-right-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    margin: 0 8px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-in-button:hover,
+.zoom-out-button:hover,
+.rotate-left-button:hover,
+.rotate-right-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.zoom-in-button:active,
+.zoom-out-button:active,
+.rotate-left-button:active,
+.rotate-right-button:active {
+    transform: scale(0.95);
+}
+
+.rotate-left-button,
+.rotate-right-button {
+    margin-left: 16px;
+}
+
+.zoom-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}

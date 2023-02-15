@@ -1,0 +1,29 @@
+#editor {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #F7F7F7;
+    color: #333;
+    overflow-y: auto;
+}
+
+.editorButton {
+    background-color: #008CBA;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.editorButton:hover {
+    background-color: #006080;
+}

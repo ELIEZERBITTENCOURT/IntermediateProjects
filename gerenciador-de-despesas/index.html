@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerenciador de despesas</title>
+</head>
+<body>
+    <header>
+		<h1>Gerenciamento de Despesas</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Adicionar Despesas</h2>
+			<form>
+				<label for="descricao">Descrição:</label>
+				<input type="text" id="descricao" name="descricao" required>
+
+				<label for="valor">Valor:</label>
+				<input type="number" id="valor" name="valor" required>
+
+				<label for="categoria">Categoria:</label>
+				<select id="categoria" name="categoria">
+					<option value="alimentacao">Alimentação</option>
+					<option value="transporte">Transporte</option>
+					<option value="saude">Saúde</option>
+					<option value="educacao">Educação</option>
+					<option value="outros">Outros</option>
+				</select>
+
+				<input type="submit" value="Adicionar Despesa">
+			</form>
+		</section>
+
+		<section>
+			<h2>Categorias de Despesas</h2>
+			<ul id="categorias">
+				<li>Alimentação</li>
+				<li>Transporte</li>
+				<li>Saúde</li>
+				<li>Educação</li>
+				<li>Outros</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Gráficos e Relatórios</h2>
+			<canvas id="grafico"></canvas>
+			<ul id="relatorio">
+				<li>Total de despesas: R$ 0,00</li>
+				<li>Despesas com alimentação: R$ 0,00</li>
+				<li>Despesas com transporte: R$ 0,00</li>
+				<li>Despesas com saúde: R$ 0,00</li>
+				<li>Despesas com educação: R$ 0,00</li>
+				<li>Outros gastos: R$ 0,00</li>
+			</ul>
+		</section>
+	</main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form>
+      <input type="text" placeholder="Adicione uma tarefa">
+      <button type="submit">Adicionar</button>
+    </form>
+    <ul class="todo-list">
+      <!-- Tarefas serão adicionadas dinamicamente aqui -->
+    </ul>
+    <div class="sort-by">
+      <label for="sort-by-select">Ordenar por:</label>
+      <select id="sort-by-select">
+        <option value="none">Nenhum</option>
+        <option value="date">Data de vencimento</option>
+      </select>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

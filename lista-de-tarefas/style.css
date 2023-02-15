@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  form button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul.todo-list {
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  ul.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  ul.todo-list li.completed {
+    background-color: #e5e5e5;
+    text-decoration: line-through;
+  }
+  
+  ul.todo-list li span {
+    margin-right: 10px;
+  }
+  
+  ul.todo-list li button {
+    border: none;
+    background-color: #f44336;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px
+}
+
+.sort-by {
+margin-top: 20px;
+display: flex;
+align-items: center;
+}
+
+.sort-by label {
+margin-right: 10px;
+}
+
+.sort-by select {
+padding: 5px;
+border-radius: 4px;
+border: none;
+}
+
+.sort-by select option {
+color: #444;
+}  
