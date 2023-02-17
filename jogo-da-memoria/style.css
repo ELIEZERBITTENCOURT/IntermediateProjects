@@ -1,0 +1,89 @@
+/* Define o estilo da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Define o estilo do título */
+h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+/* Define o estilo do tabuleiro */
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
+    margin: 1rem auto;
+    width: 60vw;
+    height: 60vh;
+    padding: 2rem;
+    background-color: #eee;
+    border: 1rem solid #ddd;
+}
+
+/* Define o estilo das cartas */
+.carta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 0.2rem solid #ddd;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.carta .conteudo-carta {
+    visibility: hidden;
+  }
+
+  .carta.virada .conteudo-carta {
+    visibility: visible;
+  }
+  
+
+/* Define o estilo do conteúdo das cartas */
+.conteudo-carta {
+    font-size: 2rem;
+}
+
+/* Define o estilo das cartas viradas */
+.virada {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+/* Define o estilo das cartas que formam um par */
+.acertou {
+    background-color: #6c9;
+    border-color: #6c9;
+}
+
+/* Define o estilo das cartas que não formam um par */
+.erro {
+    background-color: #f66;
+    border-color: #f66;
+}
+
+/* Define o estilo da grade que contém o tabuleiro */
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Define o estilo para animação de shuffle das cartas */
+.carta-animada {
+    animation: giraCarta 0.6s ease-out forwards;
+}
+
+@keyframes giraCarta {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}

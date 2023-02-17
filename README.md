@@ -6,6 +6,8 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 **Lista de projetos**
 - _Jogo da Velha_;
 
+- _Jogo da Memória_;
+
 - _Calculadora_;
 
 - _Lista de Tarefas_;
