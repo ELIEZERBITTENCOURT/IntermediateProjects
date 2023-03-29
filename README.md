@@ -6,7 +6,7 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 **Lista de projetos**
 - _Jogo da Velha_;
 
--_Jogo da Forca_;
+- _Jogo da Forca_;
 
 - _Jogo da Memória_;
 
