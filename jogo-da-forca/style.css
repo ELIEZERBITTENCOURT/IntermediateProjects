@@ -1,0 +1,51 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .game-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  
+  .word-display {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .guess-area {
+    margin-bottom: 2rem;
+  }
+  
+  .guess-area label {
+    font-size: 1.5rem;
+  }
+  
+  .guess-area input {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .guess-area button {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .guesses-remaining {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .guessed-letters {
+    font-size: 1.5rem;
+  }
+  
