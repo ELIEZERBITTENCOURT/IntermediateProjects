@@ -4,7 +4,10 @@ Este repositório contém uma lista de projetos em Javascript/HTML/CSS intermedi
 Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas tecnologias, e também pode ser personalizado para atender às suas necessidades específicas.
 
 **Lista de projetos**
+
 - _Jogo da Velha_;
+
+- _Conversor de texto em àudio_;
 
 - _Jogo da Forca_;
 
