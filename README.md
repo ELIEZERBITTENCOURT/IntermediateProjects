@@ -3,7 +3,7 @@
 Este repositório contém uma lista de projetos em Javascript/HTML/CSS intermediários.
 Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas tecnologias, e também pode ser personalizado para atender às suas necessidades específicas.
 
-**Lista de projetos**
+## Lista de projetos
 
 - _Consumo de água_;
 
