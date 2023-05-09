@@ -5,32 +5,19 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 
 ## Lista de projetos
 
-- _Consumo de água_;
-
-- _Jogo da Velha_;
-
-- _Conversor de texto em àudio_;
-
-- _Jogo da Forca_;
-
-- _Jogo da Memória_;
-
 - _Calculadora_;
-
-- _Lista de Tarefas_;
-
-- _Quiz_;
-
-- _Gerenciador de Despesas_;
-
-- _Gerador de Senhas_;
-
-- _Relógio Mundial_;
-
+- _Consumo de água_;
+- _Conversor de texto em àudio_;
 - _Editor de Texto_;
-
+- _Gerador de Senhas_;
+- _Gerenciador de Despesas_;
+- _Jogo da Forca_;
+- _Jogo da Memória_;
+- _Jogo da Velha_;
+- _Lista de Tarefas_;
 - _Previsão do Tempo_;
-
+- _Quiz_;
+- _Relógio Mundial_;
 - _Visualizador de Imagens_;
 
 ## Como utilizar
