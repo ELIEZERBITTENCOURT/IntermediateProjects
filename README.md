@@ -5,6 +5,8 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 
 **Lista de projetos**
 
+- _Consumo de água_;
+
 - _Jogo da Velha_;
 
 - _Conversor de texto em àudio_;
