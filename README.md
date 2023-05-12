@@ -8,6 +8,7 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 - _Calculadora_;
 - _Consumo de água_;
 - _Conversor de texto em àudio_;
+- _Editor de Imagem_;
 - _Editor de Texto_;
 - _Gerador de Senhas_;
 - _Gerenciador de Despesas_;
