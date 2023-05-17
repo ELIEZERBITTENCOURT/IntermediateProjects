@@ -16,6 +16,7 @@ Cada projeto foi usado como uma oportunidade de aprendizado e prática dessas te
 - _Jogo da Memória_;
 - _Jogo da Velha_;
 - _Lista de Tarefas_;
+- _Pegue o Inseto_;
 - _Previsão do Tempo_;
 - _Quiz_;
 - _Relógio Mundial_;
